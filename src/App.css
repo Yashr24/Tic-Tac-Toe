@@ -1,0 +1,37 @@
+
+.board-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.board-container {
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.game-over {
+  text-align: center;
+}
+
+.player-text {
+  color: green;
+  margin-bottom: 40px;
+}
+
+.play-again-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.play-again-button:hover {
+  background-color: #1a73e8;
+}
